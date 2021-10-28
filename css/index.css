@@ -1,0 +1,56 @@
+.page-wrapper {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.topnav {
+  display: flex;
+}
+
+.search,
+.logo,
+.cart {
+  flex: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 20px;
+}
+
+.logo {
+  flex: 4;
+  padding-top: 20px;
+}
+
+.newarrivals {
+  position: sticky;
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  margin: 5px;
+}
+
+.newjackets {
+  display: flex;
+  text-align: center;
+}
+
+.jacketone,
+.jackettwo,
+.jacketthree {
+  flex: 1;
+}
