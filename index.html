@@ -6,53 +6,127 @@
     <meta name="description" content="Pushing the Comfort Zone, Jackets made to endure all adventures" />
     <title>Rainydays | Home</title>
     <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="page-wrapper">
       <header>
-        <section class="topnav">
-          <div class="search">
-            <img src="#" alt="Search Icon">
+        <section class="headerselection">
+          <div class="search-toggle">
             <input type="search" placeholder="Search..">
+            <i class="fa fa-search"></i>
           </div>
           <div class="logo">
-            <img src="images/rainydays_logo.png" alt="logo">
+            <img src="images/rainydays_logo.png" alt="logo" style="width:100%">
           </div>
           <div class="cart">
             <link href= "cart.html">
-            <img src="#" alt ="Cart Icon">
+            <img src="../images/icons/cart.png" alt ="Cart Icon" style="width:100%">
           </div>
         </section>
       </header>
       <main>
+        <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="sizecharts.html">Sizecharts</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about">About</a></li>
+          </ul>
+        </nav>
         <section class="newarrivals">
           <div class="title">
-            <h2>NEW Arrivals</h2>
+            <h2>NEW ARRIVALS</h2>
             <p>Below you will find this autumns NEW arrivals, the jackets represented are made to endure heavy weathers. The jackets will keep you warm and dry, while also looking smashing during a simple walk with your dog or a big mountain hike.</p>
           </div>
           <div class="newjackets">
             <div class="jacketone">
-              <img src="#" alt="Jacket One">
-              <b>jacket</b>
-              <p>information</p>
-              <p>price</p>
+              <img class="imgone" src="../images/productjackets/Jacket1.jpg" alt="Jacket One">
+              <p></p>
+              <b>Thermal Jacket</b>
+              <p>Women's Zip Jacket.</p>
+              <p>$99.99</p>
             </div>
             <div class="jackettwo">
-              <img src="#" alt="Jacket Two">
-              <b>jacket</b>
-              <p>information</p>
-              <p>price</p>
+              <img class="imgtwo" src="../images/productjackets/Jacket2.jpg" alt="Jacket Two">
+              <p></p>
+              <b>Thermal Jacket</b>
+              <p>Men's Zip Jacket</p>
+              <p>$49.99</p>
             </div>
             <div class="jacketthree">
-              <img src="#" alt="Jacket Three">
-              <b>jacket</b>
-              <p>information</p>
-              <p>price</p>
+              <img class="imgthree" src="../images/productjackets/Jacket3.jpg" alt="Jacket Three">
+              <p></p>
+              <b>Anorak Jacket</b>
+              <p>Women's Halfzip Jackets.</p>
+              <p>$69.99</p>
             </div>
           </div>
         </section>
+        <section class="sale">
+          <div class="secondtitle">
+            <h2>SALE</h2>
+            <p>None the less any worse than this years collection we have a sale of last years simple rainjacket, due to and introduction of new color.</p>
+          </div>
+          <div class="salejackets">
+            <div class="saleone">
+              <img class="imgsaleone" src="../images/sale/green.jpg" alt="Sale One">
+              <p></p>
+              <b>Rain Jacket</b>
+              <p>Green Women's Zip Jacket.</p>
+              <p>$25.50</p>
+            </div>
+            <div class="saletwo">
+              <img class="imgsaletwo" src="../images/sale/purple.jpg" alt="Sale Two">
+              <p></p>
+              <b>Rain Jacket</b>
+              <p>Purple Women's Zip Jacket.</p>
+              <p>$25.50</p>
+            </div>
+            <div class="salethree">
+              <img class="imgsalethree" src="../images/sale/orange.jpg" alt="Sale Three">
+              <p></p>
+              <b>Rain Jacket</b>
+              <p>Orange Women's Zip Jacket.</p>
+              <p>$25.50</p>
+            </div>
+          </div>
+        </section>
+        <section class="newsletter">
+          <div class="newslettertitle">
+            <h2>NEWSLETTER</h2>
+            <p>Subscribe to our newsletter to receive the latest news and exclusive offers every week. No spam.</p>
+          </div>
+            <div class="email">
+              <input type="email" placeholder="Enter your email..">
+            </div>
+            <div class="button">
+              <input type="submit" class="thebutton" value="SUBSCRIBE">
+            </div>
+        </section>
+        <section class="about">
+          <div class="abouttitle">
+            <h2>About</h2>
+          </div>
+          <div class=aboutparagraphs>
+          <div class="about1">
+            <p>Our motto "Pushing the comfort zone" says it all, we drive to make the perfect jakcet for a nature loving man or woman looking for adventure and unlimited experiences.</p>
+          </div>
+          <div class="about2">
+            <p>We are a Norway based company shooting for the mountaintops of every exciting country. So far we have been introduced in the big leagues, and hope to grow even bigger. Our jackets are tested thoroghly, and are made using only recycled and nature friendly products. The production of the jackets happens locally and leave as little thump print on the enviroment as possible.</p>
+          </div>
+          <div class="about3">
+            <p>Tough, Durable, Exciting and Enjoyable are only a few of the words we and our customers strive to achieve while wearing the jackets sold by Rainydays.</p>
+          </div>
+          </div>
+        </section>
       </main>
-      <footer>Copyright</footer>
+      <footer>Copyright &copy; </footer>
     </div>
   </body>
 </html>
