@@ -63,7 +63,7 @@ body {
   flex: 1;
 }
 
-.headerselection {
+.header-selection {
   display: flex;
   justify-content: space-between;
 }
@@ -127,12 +127,12 @@ li a {
 
 li a:hover {
   background-color: #e4e4e4;
-  color: #9c692d;
+  color: #834e12;
 }
 
 .active {
   background-color: #e4e4e4;
-  color: #9c692d;
+  color: #834e12;
 }
 
 .hamburger-label {
@@ -149,7 +149,7 @@ li a:hover {
   display: block;
 }
 
-.newarrivals {
+.women {
   position: sticky;
   background-color: white;
   border-color: black;
@@ -163,19 +163,26 @@ li a:hover {
   max-width: 800px;
 }
 
-.newjackets {
+.jackets {
   text-align: center;
+  flex-wrap: wrap;
 }
 
-.jacketone,
-.jackettwo,
-.jacketthree {
+.jacket-one,
+.jacket-two,
+.jacket-three,
+.jacket-four,
+.jacket-five,
+.jacket-six {
   flex: 1;
 }
 
-.imgone,
-.imgtwo,
-.imgthree {
+.img-one,
+.img-two,
+.img-three,
+.img-four,
+.img-five,
+.img-six {
   width: 250px;
   height: 250px;
   object-fit: cover;
@@ -183,8 +190,8 @@ li a:hover {
   margin: 2px;
 }
 
-.sale {
-  position: sticky;
+.women-sizechart {
+  text-align: center;
   background-color: white;
   border-color: black;
   border-width: 1px;
@@ -192,115 +199,11 @@ li a:hover {
   margin-top: 10px;
 }
 
-.secondtitle {
-  text-align: center;
-  margin: 5px auto;
-  max-width: 700px;
-}
-
-.salejackets {
-  text-align: center;
-}
-
-.saleone,
-.saletwo,
-.salethree {
-  flex: 1;
-  color: black;
-}
-
-.old-price {
-  text-decoration: line-through;
-}
-
-.sale-price {
-  color: red;
-}
-
-.img-sale-one,
-.img-sale-two,
-.img-sale-three {
-  width: 250px;
-  height: 250px;
+.sizechart-img {
+  width: 300px;
+  height: 200px;
   object-fit: cover;
-  border: 1px solid black;
   margin: 2px;
-}
-
-.newsletter {
-  position: sticky;
-  background-color: white;
-  border-color: black;
-  border-width: 1px;
-  border-style: solid;
-  margin-top: 10px;
-}
-
-.newslettertitle {
-  text-align: center;
-  margin: 5px auto;
-  max-width: 575px;
-}
-
-.email input[type="email"] {
-  margin: 10px;
-  padding: 5px 30px 5px 15px;
-  width: 230px;
-  height: 48;
-  color: #4f5d73;
-  font-size: 17px;
-  border: 1px solid;
-  border-radius: 30px;
-  outline: none;
-  transition: 0.5s ease;
-}
-
-.thebutton {
-  border: black 1px solid;
-  background-color: #4f5d73;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.thebutton:hover {
-  border: #4f5d73 1px solid;
-  background-color: white;
-  color: #4f5d73;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.email,
-.button {
-  text-align: center;
-  padding: 10px;
-}
-
-.abouttitle {
-  text-align: center;
-}
-
-.aboutparagraphs {
-  text-align: center;
-  margin: 20px;
-}
-
-.about1 {
-  justify-content: space-around;
-  margin: 5px;
-}
-
-.about2 {
-  justify-content: space-around;
-  margin: 5px;
-}
-
-.about3 {
-  justify-content: space-around;
-  margin: 5px;
 }
 
 footer {
@@ -319,23 +222,19 @@ footer {
   margin-bottom: 10px;
 }
 
-@media (min-width: 1300px) {
-  .newjackets {
+@media (min-width: 1250px) {
+  .jackets {
     display: flex;
     text-align: center;
   }
-  .salejackets {
-    display: flex;
-    text-align: center;
-  }
-  .aboutparagraphs {
+  .about-paragraphs {
     display: flex;
     text-align: center;
     margin: 20px;
   }
 }
 
-@media (min-width: 628px) {
+@media (min-width: 600px) {
   .search-toggle input[type="search"]:hover {
     width: 150px;
   }
@@ -376,7 +275,7 @@ footer {
   }
 
   ul {
-    margin: 0 auto;
+    padding: 0px;
     text-align: center;
     background-color: white;
     border-color: black;
@@ -402,36 +301,26 @@ footer {
 
   li a:hover {
     background-color: #e4e4e4;
-    color: #9c692d;
+    color: #834e12;
   }
 
   .active {
     background-color: #e4e4e4;
-    color: #9c692d;
+    color: #834e12;
   }
 
   .cart-label {
     color: white;
   }
-
-  .email input[type="email"] {
-    margin: 10px;
-    padding: 5px 30px 5px 15px;
-    width: 350px;
-    height: 48;
-    color: #4f5d73;
-    font-size: 17px;
-    border: 1px solid;
-    border-radius: 30px;
-    outline: none;
-    transition: 0.5s ease;
-  }
 }
 
 @media (min-width: 430px) {
-  .imgone,
-  .imgtwo,
-  .imgthree {
+  .img-one,
+  .img-two,
+  .img-three,
+  .img-four,
+  .img-five,
+  .img-six {
     width: 390px;
     height: 390px;
     object-fit: cover;
@@ -439,13 +328,10 @@ footer {
     margin: 10px;
   }
 
-  .img-sale-one,
-  .img-sale-two,
-  .img-sale-three {
-    width: 390px;
-    height: 390px;
+  .sizechart-img {
+    width: 500px;
+    height: 300px;
     object-fit: cover;
-    border: 1px solid black;
-    margin: 10px;
+    margin: 2px;
   }
 }
