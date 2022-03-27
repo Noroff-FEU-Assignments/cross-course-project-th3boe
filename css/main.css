@@ -67,6 +67,7 @@ body {
 .headerselection {
   display: flex;
   justify-content: space-between;
+  max-width: 1300px;
 }
 
 .search,
@@ -82,7 +83,7 @@ body {
   position: absolute;
   top: 12px;
   right: 10px;
-  color: #0a3641;
+  color: white;
   padding: 10px;
   font-size: 25px;
   display: block;
@@ -148,7 +149,7 @@ li a:hover {
   position: absolute;
   top: 13px;
   right: 45px;
-  color: #0a3641;
+  color: white;
   padding: 10px;
   font-size: 25px;
   display: block;
