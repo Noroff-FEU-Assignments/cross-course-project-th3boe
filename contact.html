@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Pushing the Comfort Zone, Jackets made to endure all adventures" />
     <title>Rainydays | Contact</title>
-    <link href="css/contact.css" rel="stylesheet contact" />
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet contact"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     <!-- Hotjar Tracking Code for https://tender-jepsen-cf4c7b.netlify.app/ -->
     <script>
@@ -54,30 +55,53 @@
         <div class="title">
           <h1>CONTACT US!</h1>
         </div>
-        <div class="form-container">
-          <form action="thankyou.php" method="POST">
-            <label for="firstname">First Name</label>
-            <input type="text" id="firstname" name="firstname" placeholder="Enter your name.." required>
+        <div class="container">
+                <form id="form-container">
+                    <div class="message" id="successMessage">Your message was successfully sent!</div>
+                    <div>
+                        <label>
+                            Firstname (required)
+                            <input type="text" name="firstName" id="firstName" placeholder="your firstname.."/>
+                        </label>
+                        <div class="form-error" id="firstNameError">Please enter your firstname</div>
+                    </div>
+    
+                    <div>
+                        <label>
+                            Surname (minimum length of 3 characters)
+                            <input type="text" name="surName" id="surName" placeholder="your surname.."/>
+                        </label>
+                        <div class="form-error" id="surNameError">Your surname needs to be 3 or more characters</div>
+                    </div>
+    
+                    <div>
+                        <label>
+                            Email (required)
+                            <input type="email" name="email" id="email" placeholder="your email.."/>
+                        </label>
+                        <div class="form-error" id="emailError">Please enter your email adress</div>
+                    </div>
 
-            <label for="surname">Surname</label>
-            <input type="text" id="lastname" name="lastname" placeholder="Enter your surname..">
+                    <div>
+                        <label for="residence">Place of Residence</label>
+                        <select id="residence" name="residence">
+                            <option value="one">Choose</option>
+                            <option value="two">Wherever my new jacket takes me</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label>
+                            How can we help? (minimum length of 10 characters)
+                            <input type="text" name="subject" id="subject" placeholder="Write something..">
+                        </label>
+                        <div class="form-error" id="subjectError">The subject needs to be a minimum of 10 characters</div>
+                    </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email.." required>
-
-            <label for="residence">Place of Residence</label>
-            <select id="residence" name="residence">
-              <option value="one">Choose</option>
-              <option value="two">Wherever my new jacket takes me</option>
-            </select>
-
-            <label for="subject">How can we help?</label>
-            <textarea id="subject" name="question" placeholder="Write something.." style="height:200px" required></textarea>
-
-        <div class="button">
-            <a href="success.html"><input type="submit" class="thebutton" value="SEND"></a>
-        </div>
-          </form>
+                    <div class="button">
+                        <button type="submit" class="the-button">SUBMIT</button>
+                    </div>
+                </form>
         </div>
         </section>
       </main>
@@ -102,3 +126,7 @@
             Copyright &copy; 
         </div>
     </footer>
+    </div>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
