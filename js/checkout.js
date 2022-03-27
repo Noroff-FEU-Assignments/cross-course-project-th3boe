@@ -41,7 +41,6 @@ function verifyForm(event) {
     valueLength(fullName.value, 0) &&
     valueLength(cardNumber.value, 15) &&
     valueLength(cvv.value, 2)
-    //Sjekke at expiration date er lagt til
   ) {
     message.style.display = "block";
 
@@ -60,6 +59,3 @@ function valueLength(value, span) {
     return false;
   }
 }
-
-const cvv = document.querySelector("#cvv");
-const cvvError = document.querySelector("#cvvError");
