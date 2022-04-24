@@ -6,12 +6,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
 }
 
-.page-wrapper {
+.container {
   max-width: 1350px;
   min-height: 100vh;
   padding: 10px;
@@ -67,7 +67,6 @@ body {
 .headerselection {
   display: flex;
   justify-content: space-between;
-  max-width: 1300px;
 }
 
 .search,
@@ -83,7 +82,7 @@ body {
   position: absolute;
   top: 12px;
   right: 10px;
-  color: white;
+  color: #0a3641;
   padding: 10px;
   font-size: 25px;
   display: block;
@@ -149,7 +148,7 @@ li a:hover {
   position: absolute;
   top: 13px;
   right: 45px;
-  color: white;
+  color: #0a3641;
   padding: 10px;
   font-size: 25px;
   display: block;
@@ -162,12 +161,17 @@ li a:hover {
 
 /* Index specified css */
 
-.new-arrivals {
+.new-arrivals,
+.sale,
+.newsletter,
+footer {
   position: sticky;
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
 }
 
@@ -233,15 +237,6 @@ a:link {
   margin: 2px;
 }
 
-.sale {
-  position: sticky;
-  background-color: #ffffffa8;
-  border: 1px solid black;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  max-width: 1200px;
-}
-
 .second-title {
   text-align: center;
   margin: 5px auto;
@@ -293,15 +288,6 @@ a:link {
   object-fit: cover;
   border: 1px solid black;
   margin: 2px;
-}
-
-.newsletter {
-  position: sticky;
-  background-color: #ffffffa8;
-  border: 1px solid black;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  max-width: 1200px;
 }
 
 .newsletter-title {
@@ -376,18 +362,42 @@ a:link {
   margin: 5px;
 }
 
-footer {
-  position: sticky;
-  background-color: #ffffffa8;
-  border: 1px solid black;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  max-width: 1200px;
-}
-
 .copyright {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.error {
+  text-align: center;
+  padding: 10px;
+  width: 380px;
+  color: rgb(116, 8, 8);
+  background-color: rgba(148, 5, 5, 0.171);
+  border: 1px solid rgb(116, 8, 8);
+  box-shadow: 2px 2px 4px 0 rgba(105, 1, 1, 0.363);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.loader {
+  margin: auto;
+  border: 15px solid rgba(138, 138, 138, 0.534);
+  box-shadow: 2px 2px 4px 0 rgba(126, 134, 1, 0.644);
+  border-radius: 50%;
+  border-top: 15px solid #03617269;
+  width: 150px;
+  height: 150px;
+  animation: spinner 4s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (min-width: 1290px) {

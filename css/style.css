@@ -1,12 +1,13 @@
 /* Contact specified css */
 
-.success,
 .contact {
   position: sticky;
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
 }
 
@@ -84,8 +85,9 @@ label {
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  height: 550px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
 }
 
@@ -241,7 +243,9 @@ label {
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
 }
 
@@ -331,7 +335,6 @@ label {
 
 .button {
   margin: 20px;
-  padding: 0px;
 }
 
 @media (min-width: 600px) {
@@ -362,10 +365,6 @@ label {
     display: inline-flex;
     text-align: center;
   }
-
-  .button {
-    margin: 20px;
-  }
 }
 
 /* Women specified css */
@@ -375,7 +374,9 @@ label {
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
 }
 
@@ -397,14 +398,14 @@ label {
 }
 
 .women-sizechart {
-  text-align: center;
   position: sticky;
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  max-width: 1200px;
+  margin: auto;
   margin-top: 10px;
+  padding: 12px;
+  max-width: 1200px;
 }
 
 .sizechart-img {
@@ -444,7 +445,9 @@ label {
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
 }
 
@@ -458,14 +461,14 @@ label {
 }
 
 .men-sizechart {
-  text-align: center;
   position: sticky;
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  max-width: 1200px;
+  margin: auto;
   margin-top: 10px;
+  padding: 12px;
+  max-width: 1200px;
 }
 
 .men-sizechart:hover {
@@ -474,35 +477,27 @@ label {
 
 /* Jacket specified css */
 
-.jacket {
+.jacket-details {
   position: sticky;
-  background-color: #ffffffa8;
+  background-color: #ffffffbd;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
-}
-
-.content {
-  text-align: center;
-  display: block;
-  border: 1px solid black;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-  background-color: rgba(233, 233, 233, 0.932);
-  color: black;
-  margin: 10px auto;
-  max-width: 420px;
 }
 
 .title {
   text-align: center;
   margin: 5px auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 h2 {
   color: #834e12;
   font-weight: 100px;
+  font-size: large;
 }
 
 .product-image-jacket {
@@ -519,10 +514,6 @@ h2 {
   text-align: center;
 }
 
-.product-info {
-  margin: 15px;
-}
-
 select {
   width: 90%;
   padding: 10px;
@@ -532,6 +523,14 @@ select {
   box-sizing: border-box;
   resize: vertical;
   text-align: center;
+}
+
+.product-selector {
+  max-width: 500px;
+}
+
+.price {
+  font-weight: 1000;
 }
 
 @media (min-width: 600px) {
@@ -551,7 +550,9 @@ select {
   background-color: #ffffffa8;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
   max-width: 1200px;
 }
 
