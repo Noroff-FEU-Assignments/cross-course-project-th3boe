@@ -3,41 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pushing the Comfort Zone, Jackets made to endure all adventures" />
+    <meta
+      name="description"
+      content="Pushing the Comfort Zone, Jackets made to endure all adventures"
+    />
     <title>Rainydays | Checkout</title>
-    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet checkout" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
-    <!-- Hotjar Tracking Code for https://tender-jepsen-cf4c7b.netlify.app/ -->
-    <script>
-    (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2862229,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+    />
   </head>
   <body>
     <div class="container">
       <header>
         <div class="header-selection">
           <div class="search-toggle">
-            <input type="search" placeholder="Search..">
+            <input type="search" placeholder="Search.." />
             <i class="fa fa-search"></i>
           </div>
           <div class="logo">
-            <a href="index.html"><img src="images/rainydays_logo.png" alt="logo" style="width:100%"></a>
+            <a href="index.html"
+              ><img
+                src="images/rainydays_logo.png"
+                alt="logo"
+                style="width: 100%"
+            /></a>
           </div>
           <div class="cart">
-            <a href="cart.html"><label class="cart-label" for="cart-icon"><i class="fas fa-cart-plus"></i></label></a>
+            <a href="cart.html"
+              ><label class="cart-label" for="cart-icon"
+                ><i class="fas fa-cart-plus"></i></label
+            ></a>
           </div>
         </div>
         <div class="main-nav">
-          <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-          <input type="checkbox" id="hamburger-menu">
+          <label class="hamburger-label" for="hamburger-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <input type="checkbox" id="hamburger-menu" />
           <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -50,69 +55,127 @@
           </nav>
         </div>
       </header>
+
       <main>
         <section class="checkout">
           <div class="title">
-              <h1>CHECKOUT</h1>
+            <h1>Checkout</h1>
           </div>
-          <div class="card">
-              <img class="card-img" src="images/VISA.png" alt="VISA card">
-          </div>
-          <div class="checkout-card">
-           <form id="form-checkout">
-            <div class="message" id="successMessage">ThankYou! your payment was successfull.</div>
-            <div class="top">
-              <p>Cardholder Name</p>
-              <input type="text" class="fullName" id="fullName" name="fullName" placeholder="Enter cardholder name.." required>
-              <div class="form-error" id="fullNameError">Please enter the cardholders name</div>
 
-              <p>Card Number</p>
-              <input type="number" class="cardNumber" id="cardNumber" name="cardNumber" placeholder=" * * * *   * * * *   * * * *   * * * * " required>
-              <div class="form-error" id="cardNumberError">Cardnumber must be atleast 16 characters</div>
-            </div>
-            <div class="bottom"> 
-              <p class="exp-head">Expiration Date</p>
-              <input type="date" class="expirationDate" id="expirationDate" name="expirationDate" required>
-              <div class="form-error" id="expirationDateError">Please fill in a date</div>
-              
-              <p class="cvv-head">CVV</p>
-              <input type="number" class="cvv" id=cvv name=cvv placeholder="123" required>
-              <div class="form-error" id="cvvError">please add a three numbers</div>
-            </div>
-            </form>
-         </div>
-          <div class="payment-method">
-              <p>Different payment method</p>
-              <img class="mastercard" src="images/icons/mastercard.png" alt="mastercard icon">
-              <img class="vipps" src="images/icons/vipps.png" alt="vipps icon">
-              <div class="button">
-                <a href="success.html"><input type="submit" class="the-button" value="CHECK OUT"></a>
-              </div>
+          <div class="card">
+            <img class="card-img" src="images/VISA.png" alt="VISA card" />
           </div>
-        </section>  
+
+          <div class="checkout-card">
+            <form id="form-checkout">
+              <div class="message" id="successMessage">
+                Thank You! Your payment was successful.
+              </div>
+              <div class="top">
+                <p>Cardholder Name</p>
+                <input
+                  type="text"
+                  class="fullName"
+                  id="fullName"
+                  name="fullName"
+                  placeholder="Enter cardholder name.."
+                />
+                <div class="form-error" id="fullNameError">
+                  Please enter the cardholders name
+                </div>
+
+                <p>Card Number</p>
+                <input
+                  type="number"
+                  class="cardNumber"
+                  id="cardNumber"
+                  name="cardNumber"
+                  placeholder=" * * * *   * * * *   * * * *   * * * * "
+                />
+                <div class="form-error" id="cardNumberError">
+                  Cardnumber must be atleast 16 characters
+                </div>
+              </div>
+              <div class="bottom">
+                <p class="exp-head">Expiration Date</p>
+                <input
+                  type="date"
+                  class="expirationDate"
+                  id="expirationDate"
+                  name="expirationDate"
+                />
+                <div class="form-error" id="expirationDateError">
+                  Please fill in a date
+                </div>
+
+                <p class="cvv-head">CVV</p>
+                <input
+                  type="number"
+                  class="cvv"
+                  id="cvv"
+                  name="cvv"
+                  placeholder="123"
+                />
+                <div class="form-error" id="cvvError">
+                  please add a three numbers
+                </div>
+              </div>
+
+              <div class="payment-method">
+                <p>Different payment method</p>
+                <img
+                  class="mastercard"
+                  src="images/icons/mastercard.png"
+                  alt="mastercard icon"
+                />
+                <img
+                  class="vipps"
+                  src="images/icons/vipps.png"
+                  alt="vipps icon"
+                />
+              </div>
+              <div class="button">
+                <input type="submit" class="the-button" value="CHECK OUT" />
+              </div>
+            </form>
+          </div>
+        </section>
       </main>
       <footer>
         <section class="about">
-            <div class="about-title">
-                <h1 id="About">ABOUT</h1>
+          <div class="about-title">
+            <h1 id="About">ABOUT</h1>
+          </div>
+          <div class="about-paragraphs">
+            <div class="about1">
+              <p>
+                Our motto "Pushing the comfort zone" says it all, we drive to
+                make the perfect jakcet for a nature loving man or woman looking
+                for adventure and unlimited experiences.
+              </p>
             </div>
-            <div class="about-paragraphs">
-                <div class="about1">
-                  <p>Our motto "Pushing the comfort zone" says it all, we drive to make the perfect jakcet for a nature loving man or woman looking for adventure and unlimited experiences.</p>
-                </div>
-                <div class="about2">
-                  <p>We are a Norway based company shooting for the mountaintops of every exciting country. So far we have been introduced in the big leagues, and hope to grow even bigger. Our jackets are tested thoroghly, and are made using only recycled and nature friendly products. The production of the jackets happens locally and leave as little thump print on the enviroment as possible.</p>
-                </div>
-                <div class="about3">
-                  <p>Tough, Durable, Exciting and Enjoyable are only a few of the words we and our customers strive to achieve while wearing the jackets sold by Rainydays.</p>
-                </div>
+            <div class="about2">
+              <p>
+                We are a Norway based company shooting for the mountaintops of
+                every exciting country. So far we have been introduced in the
+                big leagues, and hope to grow even bigger. Our jackets are
+                tested thoroghly, and are made using only recycled and nature
+                friendly products. The production of the jackets happens locally
+                and leave as little thump print on the enviroment as possible.
+              </p>
             </div>
+            <div class="about3">
+              <p>
+                Tough, Durable, Exciting and Enjoyable are only a few of the
+                words we and our customers strive to achieve while wearing the
+                jackets sold by Rainydays.
+              </p>
+            </div>
+          </div>
         </section>
-            <div class="copyright">
-                Copyright &copy; 
-            </div>
-    </footer>
-  </div>
-  <script src="js/checkout.js"></script>
-</body>
+        <div class="copyright">Copyright &copy;</div>
+      </footer>
+    </div>
+    <script src="js/checkout.js"></script>
+  </body>
 </html>
