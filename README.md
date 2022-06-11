@@ -28,7 +28,7 @@ keywords:
 
 The project has quite a simple build to copy, the API key is already added to the repo, no dependencies needed. All you have to do is clone the repo:
 
-1. Clone the repo:
+Clone the repo:
 
 ```bash
 git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-th3boe.git
