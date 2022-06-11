@@ -40,7 +40,7 @@ If someone was to want to help with the project or collaborate on it, they can c
 
 ## Contact
 
-If you want to get in contact with me (the developer), you can look me up on Instagram, Linkedin or via email.
+If you want to get in contact with me (the developer), you can look me up on my animation portfolio or Linkedin.
 
 [My Animation Portfolio](www.boe3am.com)
 
