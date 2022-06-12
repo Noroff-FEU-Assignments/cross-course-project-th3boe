@@ -40,7 +40,7 @@ If someone was to want to help with the project or collaborate on it, they can c
 
 If you want to get in contact with me (the developer), you can look me up on my animation portfolio or Linkedin.
 
-[My Animation Portfolio](www.boe3am.com)
+[My Animation Portfolio](https://boe3am.com/)
 
 [My LinkedIn page](https://www.linkedin.com/in/benedicte-%C3%B8verb%C3%B8-9b35b2162/)
 
