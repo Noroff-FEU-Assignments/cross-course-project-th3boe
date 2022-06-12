@@ -12,9 +12,9 @@ The products where added through an API that gathered the products from a headle
 
 keywords:
 
-- HTML - setup
+- HTML - build
 - CSS - mountain theme
-- Javascript - API
+- Javascript - API and verification
 
 ## Built Using
 
