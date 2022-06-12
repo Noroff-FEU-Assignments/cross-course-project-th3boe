@@ -6,7 +6,7 @@ The project was made to be an online shop selling special jackets made for extre
 
 ## Description
 
-The RainyDays site was created based on one of three given briefs. The code was first made what you could call both simple and/ or complex at the same time, since when we started the project we had not yet looked at Javascript and API calls. Which means that the code was a lot longer due to every jacket card was made manually. Later however the code was updated with verification and API fetch which means that a lot of the HTML was replaced by Javascript. This means the site was originally created using HTML and CSS, while JS was added later.
+The RainyDays site was created based on one of three given briefs. The code was first made what you could call both simple and/ or complex at the same time, since when we started the project we had not yet looked at Javascript and API calls. Which means that the code was a lot longer due to every jacket card being made manually. Later however the code was updated with verification and API fetch which means that a lot of the HTML was replaced by Javascript. This means the site was originally created using HTML and CSS, while JS was added later.
 
 The products where added through an API that gathered the products from a headless wordpress that we made during a different assignment. The site was made to be a clothening store selling jackets for all kind of extreme weather. I wanted the site to have a outdoor look which would inspire you to go outside - so created it using bright autmn colors and using images that makes the outside look like the most wonderful place on earth.
 
